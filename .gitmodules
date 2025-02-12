@@ -13,3 +13,9 @@
 [submodule "span-lite"]
 	path = span-lite
 	url = https://github.com/martinmoene/span-lite.git
+<<<<<<< HEAD
+=======
+[submodule "subhook"]
+	path = subhook
+	url = https://github.com/devbluen/subhook
+>>>>>>> b1e2b68c0fc2e00afc01ad0549a24f4d0fc9d7b3
