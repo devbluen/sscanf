@@ -40,7 +40,7 @@ jobs:
           cmake -DCMAKE_BUILD_TYPE=Release .. -G "Visual Studio 16 2019" -A Win32
           cmake --build . --config Release
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sscanf-win-release
           path: build/Release/sscanf.dll
@@ -87,7 +87,7 @@ jobs:
           mv ./libsscanf.so ./sscanf.so
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: sscanf-linux-release
           path: build/sscanf.so
